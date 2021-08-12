@@ -14,6 +14,7 @@
             />
             <p>Elizabeth Keen</p>
           </div>
+          <!-- carousel -->
           <div class="gigprofile__slider">
             <div
               id="carouselExampleControls"
@@ -79,11 +80,14 @@
 </template>
 
 <script>
+// import SellerSlider from "../components/SellerSlider.vue";
+
 export default {};
 </script>
 
 <style scoped>
-/* GIGPROFILE IMAGE */
+/* 
+SellerSliderGIGPROFILE IMAGE */
 .gigprofile__user--img {
   height: 32px;
   width: 32px;
@@ -118,6 +122,11 @@ export default {};
 .slider__image {
   width: 90%;
   height: 450px;
+}
+.gigprofile__slider {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
 }
 /* GIGPROFILE IMAGE END */
 </style>
