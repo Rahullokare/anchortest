@@ -1,17 +1,21 @@
 <template>
   <div>
     <TopBar />
-    <GigProfile />
+    <!-- <GigProfile /> -->
+    <Slider />
+    <Slider />
   </div>
 </template>
 
 <script>
 import TopBar from "./components/TopBar/TopBar.vue";
-import GigProfile from "./views/GigProfile.vue";
+// import GigProfile from "./views/GigProfile.vue";
+import Slider from "./components/Slider.vue";
 export default {
   components: {
     TopBar,
-    GigProfile,
+    // GigProfile,
+    Slider,
   },
 };
 </script>
