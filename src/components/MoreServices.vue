@@ -12,15 +12,15 @@
         :navigation="true"
         :breakpoints="{
           '240': {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 0,
           },
           '640': {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 0,
           },
           '768': {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 0,
           },
           '1024': {

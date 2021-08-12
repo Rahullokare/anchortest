@@ -23,8 +23,8 @@
         </div>
         <div class="rates">
           <p class="name">Elizabeth Keen</p>
-          <p>Marketing Expert</p>
-          <p>5 years of experience</p>
+          <p class="gig_pro">Marketing Expert</p>
+          <p class="gig_pro">5 years of experience</p>
           <!-- rating -->
         </div>
       </div>
@@ -78,5 +78,15 @@ i {
 }
 .pricing strong {
   font-size: 20px;
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.gig_pro {
+  font-size: 14px;
+}
+.card-title {
+  font-size: 16px;
 }
 </style>

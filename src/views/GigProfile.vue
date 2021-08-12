@@ -16,58 +16,60 @@
           </div>
           <!-- carousel -->
           <div class="gigprofile__slider">
-            <div
-              id="carouselExampleControls"
-              class="carousel slide slider__image"
-              data-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    class="d-block w-100"
-                    src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvlondRYQro2kEhdfoS5rG2Xtgl27hHT1rg&usqp=CAU"
-                    alt="First slide"
-                  />
+            <div class="cursore__image">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide slider__image"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvlondRYQro2kEhdfoS5rG2Xtgl27hHT1rg&usqp=CAU"
+                      alt="First slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvlondRYQro2kEhdfoS5rG2Xtgl27hHT1rg&usqp=CAU"
+                      alt="Second slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvlondRYQro2kEhdfoS5rG2Xtgl27hHT1rg&usqp=CAU"
+                      alt="Third slide"
+                    />
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvlondRYQro2kEhdfoS5rG2Xtgl27hHT1rg&usqp=CAU"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvlondRYQro2kEhdfoS5rG2Xtgl27hHT1rg&usqp=CAU"
-                    alt="Third slide"
-                  />
-                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleControls"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleControls"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
         </div>
@@ -97,7 +99,7 @@ SellerSliderGIGPROFILE IMAGE */
   margin: 25px 0 0 0;
 }
 .gigprofile__img {
-  width: 87%;
+  width: 80%;
 }
 .gigprofile__img > p {
   font-size: 28px;

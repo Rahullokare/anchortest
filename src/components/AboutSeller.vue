@@ -1,8 +1,8 @@
 <template>
   <div style="margin-bottom: 64px">
     <h1 class="pb-5">About The Seller</h1>
-    <div class="row pb-4">
-      <div class="col-2">
+    <div class="row pb-4 seller-prof">
+      <div class="col-12 col-lg-2 col-sm-12 col-md-12 col-12">
         <img
           class="rounded-circle"
           src="https://ahadsohail.com/Mentor%20Ocean/sub%20pages/Gig%20Page/img/Profile%20Pic.png"
@@ -11,7 +11,7 @@
           width="110"
         />&nbsp;
       </div>
-      <div class="col-4 rates">
+      <div class="col-12 col-lg-4 col-sm-12 col-md-12 col-12 rates">
         <p class="name">Elizabeth Keen</p>
         <p>Marketing Expert</p>
         <!-- rating -->
@@ -32,26 +32,26 @@
     <!-- seller stats -->
     <div class="stats-desc">
       <div class="row border-bottom">
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12 col-md-12 col-12">
           <p>
             From <br />
             <strong>India</strong>
           </p>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12 col-md-12 col-12">
           <p>
             Member since<br />
             <strong>May 2021</strong>
           </p>
         </div>
         <div class="w-100"></div>
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12 col-md-12 col-12">
           <p>
             Avg. response time<br />
             <strong>1 hour</strong>
           </p>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12 col-md-12 col-12">
           <p>
             Last delivery about<br />
             <strong>22 hours</strong>
@@ -105,5 +105,10 @@ h1 {
 }
 .rating-div img {
   padding-left: 4px;
+}
+@media (max-width: 1200px) {
+  .seller-prof {
+    text-align: center;
+  }
 }
 </style>

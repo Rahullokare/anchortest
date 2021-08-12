@@ -33,32 +33,12 @@
         <i class="fas fa-search"></i>
         <input
           type="text"
-          placeholder="Hellow There"
+          placeholder="Find Services"
           class="search__bar--input"
         />
         <button class="search__bar--btn">Search</button>
       </div>
-      <div class="search__bar--right">
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenu2"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Dropdown
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button class="dropdown-item" type="button">Action</button>
-            <button class="dropdown-item" type="button">Another action</button>
-            <button class="dropdown-item" type="button">
-              Something else here
-            </button>
-          </div>
-        </div>
-      </div>
+      <div class="search__bar--right"></div>
     </div>
     <hr />
   </div>
@@ -103,7 +83,7 @@ hr {
 /* SEARCH BAR */
 
 .search__bar {
-  background-color: rgb(218, 218, 218);
+  /* background-color: rgb(218, 218, 218); */
 }
 .search__bar--left > a {
   margin-left: 45px;
@@ -116,11 +96,10 @@ hr {
 .search__bar--center {
   background-color: white;
   margin-left: 1.5rem;
-  /* // border: 1px solid darkgray; */
   padding: 5px 5px 5px 10px;
   display: flex;
   align-items: center;
-  border-radius: 10px;
+  border: 1px solid rgb(114, 113, 113);
 }
 .search__bar--center > i {
   color: #62646a;
@@ -135,7 +114,6 @@ hr {
   background-color: #1dbf73;
   color: white;
   padding: 5px 10px 5px 10px;
-  border-radius: 5px;
   font-weight: bold;
   border: none;
   outline: none;

@@ -1,5 +1,5 @@
 <template>
-  <div class="seller-profile d-flex align-items-start">
+  <div class="seller-profile d-flex profile align-items-start">
     <img
       class="rounded-circle d-inline"
       src="https://ahadsohail.com/Mentor%20Ocean/sub%20pages/Gig%20Page/img/Profile%20Pic.png"
@@ -7,7 +7,7 @@
       height="32"
       width="32"
     />&nbsp;
-    <p class="d-inline">Elizabeth Keen</p>
+    <p class="d-inline eliz">Elizabeth Keen</p>
     <div class="rating-div d-inline ml-3">
       <img src="../assets/star.svg" class="rating" alt="rating" />&nbsp;
       <img src="../assets/star.svg" class="rating" alt="rating" />&nbsp;
@@ -37,5 +37,14 @@ export default {};
 }
 .rating-div img {
   padding-left: 4px;
+}
+@media (max-width: 1200px) {
+  .profile {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .eliz {
+    margin-bottom: 0rem;
+  }
 }
 </style>

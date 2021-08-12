@@ -29,7 +29,6 @@ export default {};
 
 <style scoped>
 .comment__section {
-  margin-left: 48px;
   padding-top: 25px;
   border-top: 1.2px solid #979393;
   display: flex;
@@ -54,6 +53,7 @@ export default {};
 .user__state > span {
   color: #62646a;
   font-size: 14px;
+  margin-left: 8px;
 }
 .user__state > img {
   width: 20px;

@@ -205,9 +205,6 @@ export default {};
 </script>
 
 <style scoped>
-.contain {
-  position: relative;
-}
 .fa-check {
   color: #19a463;
 }
@@ -263,5 +260,14 @@ export default {};
 .tab-pane {
   padding-left: 24px;
   padding-right: 24px;
+}
+@media (max-width: 1200px) {
+  .fixedElement {
+    position: static;
+
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
 }
 </style>

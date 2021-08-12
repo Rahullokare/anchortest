@@ -18,7 +18,7 @@
     <p>By the end of the course, you'll be able to.....</p>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12 col-md-12 col-12">
         <i class="fa fa-check" aria-hidden="true"></i>
         <p class="d-inline ml-3">
           Follow the design process: empathize with users, define pain points,
@@ -26,7 +26,7 @@
           on designs
         </p>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12 col-md-12 col-12">
         <i class="fa fa-check" aria-hidden="true"></i>
         <p class="d-inline ml-3">
           Follow the design process: empathize with users, define pain points,
@@ -35,7 +35,7 @@
         </p>
       </div>
       <div class="w-100"></div>
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12 col-md-12 col-12">
         <i class="fa fa-check" aria-hidden="true"></i>
         <p class="d-inline ml-3">
           Follow the design process: empathize with users, define pain points,
@@ -43,7 +43,7 @@
           on designs
         </p>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12 col-md-12 col-12">
         <i class="fa fa-check" aria-hidden="true"></i>
         <p class="d-inline ml-3">
           Follow the design process: empathize with users, define pain points,
