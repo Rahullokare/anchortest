@@ -41,8 +41,8 @@ export default {};
 </script>
 
 <style scoped>
-.carousel-inner .item {
-  height: 500px;
+.carousel-inner {
+  height: 300px;
   background-size: cover;
   background-position: center center;
 }

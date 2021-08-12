@@ -14,13 +14,15 @@
 <script>
 import GigLeftView from "../components/GigLeftView.vue";
 import GigRightView from "../components/GigRightView.vue";
+
 export default {
   components: {
     GigLeftView,
     GigRightView,
   },
 };
-</script>
+</script>,
+    
 
 <style scoped>
 </style>

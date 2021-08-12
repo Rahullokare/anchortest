@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TopBar />
+    <TopBar class="topbar-1" />
     <GigView />
   </div>
 </template>
@@ -17,4 +17,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@media (max-width: 1200px) {
+  .topbar-1 {
+    display: none;
+  }
+}
+</style>
